@@ -1,11 +1,9 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import {CustomButton, TButton} from './Button';
-import {select, text} from "@storybook/addon-knobs";
+import {CustomButton} from './Button';
 import {View} from "react-native";
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: 'Example/Button',
   component: CustomButton,
